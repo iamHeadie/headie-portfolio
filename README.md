@@ -2,47 +2,32 @@
 
 Cinematic personal portfolio for **Headie** (`@iamheadie`) — AI video creator and visual storyteller.
 
-A dark, editorial, mobile-first single-page site with immersive video previews, a dedicated project view per film, scroll-based reveals, and a prominent socials section. Built with React 19, React Router, Vite and Tailwind v4.
-
 - Site: https://headie-portfolio.vercel.app
 - Repo: https://github.com/iamHeadie/headie-portfolio
+
+## Live films on this branch
+
+Selected Work plays the files actually in `public/videos/`:
+
+- `Quantum-Double-Slit_1080x1920.mp4`
+- `Electromagnetism-Motors-Magnets_1080x1920.mp4`
+
+Titles can stay editorial in `src/lib/projects.ts`. The `video` path must match the real filename.
+
+GitHub rejects files over 100 MB. Host larger films on Cloudinary or YouTube and paste the URL into `projects.ts` instead of uploading the MP4.
 
 ## Local
 
 ```bash
 npm install
-npm run dev      # dev server
-npm run build    # production build → dist/
-npm run preview  # preview the build
-```
-
-## Structure
-
-```
-src/
-  lib/
-    site.ts        # name, bio, socials, tools, stats — edit your details here
-    projects.ts    # the films: metadata, objective, concept, process, poster + video paths
-  components/       # Nav, Footer, ProjectCard, VideoPlayer (lightbox), Reveal, icons…
-  pages/
-    Home.tsx        # Hero · Selected Work · All Projects · About · Process · Tools · Socials · Contact
-    ProjectPage.tsx # dedicated project view + immersive player
-public/
-  videos/          # .mp4 films (portrait 9:16 or 16:9)
-  images/          # poster frames (jpg), one per film
+npm run dev
+npm run build
+npm run preview
 ```
 
 ## Adding a film
 
-1. Drop the `.mp4` in `public/videos/` and a poster still in `public/images/`.
-2. Add an entry to `projects.ts` (set `poster`, `video`, `aspect`, and the copy fields).
-3. Set `featured: true` to surface it in **Selected Work**.
-
-Poster frames were extracted from the source videos with `ffmpeg` (e.g.
-`ffmpeg -ss 40 -i film.mp4 -frames:v 1 -q:v 2 poster.jpg`).
-
-## Socials
-
-The X / Twitter panel is built to hold a live post feed. Until an X API key is
-wired in, it shows curated teasers that link to the profile — swap those in
-`Home.tsx` (the `hoverPost` helper) for real embeds when available.
+1. If the file is under 100 MB: drop the `.mp4` in `public/videos/`.
+2. If it is larger: upload to Cloudinary or YouTube (unlisted) and use that URL.
+3. Add or edit the entry in `src/lib/projects.ts` — set `video` to the real path or URL.
+4. Set `featured: true` to show it in Selected Work.
