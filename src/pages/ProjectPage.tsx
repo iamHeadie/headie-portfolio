@@ -63,7 +63,13 @@ export function ProjectPage() {
             className="group relative mt-12 block w-full overflow-hidden rounded-lg border border-line/50 bg-ink"
             aria-label={`Play ${project.title}`}
           >
-            <div className="relative mx-auto aspect-[9/16] max-h-[80dvh] w-full max-w-[380px] sm:max-w-[420px]">
+            <div
+              className={`relative mx-auto w-full ${
+                project.aspect === "portrait"
+                  ? "aspect-[9/16] max-h-[80dvh] max-w-[380px] sm:max-w-[420px]"
+                  : "aspect-video max-w-4xl"
+              }`}
+            >
               <img
                 src={project.poster}
                 alt={`${project.title} — still`}

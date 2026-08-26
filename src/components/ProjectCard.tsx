@@ -72,9 +72,15 @@ export function ProjectCard({
         />
         <div className="absolute inset-0 bg-void/40" aria-hidden />
 
-        {/* Centered portrait media */}
+        {/* Centered media (portrait or landscape) */}
         <div className="absolute inset-0 flex items-center justify-center p-4 sm:p-5">
-          <div className="relative h-full max-h-full overflow-hidden rounded-sm shadow-2xl ring-1 ring-white/5" style={{ aspectRatio: "9 / 16" }}>
+          <div
+            className={cn(
+              "relative max-h-full max-w-full overflow-hidden rounded-sm shadow-2xl ring-1 ring-white/5",
+              project.aspect === "portrait" ? "h-full" : "w-full",
+            )}
+            style={{ aspectRatio: project.aspect === "portrait" ? "9 / 16" : "16 / 9" }}
+          >
             <img
               src={project.poster}
               alt={`${project.title} — ${project.kicker}`}
