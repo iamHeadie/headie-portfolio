@@ -69,6 +69,31 @@ export const projects: Project[] = [
     aspect: "portrait",
   },
   {
+    slug: "the-sailor",
+    title: "The Sailor",
+    kicker: "Claymation · Short Film",
+    year: "2026",
+    runtime: "1:39",
+    featured: true,
+    logline:
+      "A lonely sailor with gold teeth and a good heart looks for love on a claymation street where the sea meets the sky.",
+    objective:
+      "Step away from the explainer format and prove range: a character-driven narrative short with real emotion, timing and comedy — the kind of story that usually takes a stop-motion studio, made solo with AI.",
+    concept:
+      "Handmade in feel, generated in fact. Every surface reads like fingerprinted clay — the cobblestones, the crooked houses, the sailor's weathered face. The whole film leans into that tactile, stop-motion charm so the technology disappears and the character is all that's left.",
+    role: "Director · Writer · Motion & Edit",
+    tools: ["invideo Agent", "Minimax", "After Effects", "CapCut"],
+    process: [
+      { t: "Character", d: "Locked the sailor's look first — gold grille, pipe, sailor blues — so he stayed consistent shot to shot." },
+      { t: "World", d: "Built the claymation street as a persistent set: same houses, same light, believable depth." },
+      { t: "Beats", d: "Storyboarded the little love story so each expression and pause earns its screen time." },
+      { t: "Cut", d: "Edited for comic and emotional timing, then graded warm to sell the handmade, sunlit feel." },
+    ],
+    poster: "/images/The-Sailor.jpg",
+    video: "/videos/The-Sailor_1254x720.mp4",
+    aspect: "video",
+  },
+  {
     slug: "in-production",
     title: "Untitled — In Production",
     kicker: "Next Film",

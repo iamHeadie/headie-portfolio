@@ -47,13 +47,17 @@ export function VideoPlayer({
       </button>
 
       <div
-        className="lb-panel relative flex max-h-[92dvh] w-full max-w-[420px] flex-col px-4 sm:max-w-[440px]"
+        className={`lb-panel relative flex max-h-[92dvh] w-full flex-col px-4 ${
+          project.aspect === "portrait" ? "max-w-[420px] sm:max-w-[440px]" : "max-w-5xl"
+        }`}
         onClick={(e) => e.stopPropagation()}
       >
         <div className="overflow-hidden rounded-lg border border-line/60 bg-black shadow-2xl">
           <video
             ref={videoRef}
-            className="mx-auto max-h-[78dvh] w-full bg-black object-contain"
+            className={`mx-auto w-full bg-black object-contain ${
+              project.aspect === "portrait" ? "max-h-[78dvh]" : "max-h-[72dvh]"
+            }`}
             controls
             autoPlay
             playsInline
