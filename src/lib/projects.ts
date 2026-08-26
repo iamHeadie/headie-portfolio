@@ -101,7 +101,7 @@ export const projects: Project[] = [
     runtime: "—",
     featured: false,
     wip: true,
-    logline: "The next short in the science series is in the cut. Follow along on X to see it first.",
+    logline: "The next short film is in the cut. Follow along on X to see it first.",
     objective: "",
     concept: "",
     role: "Director",

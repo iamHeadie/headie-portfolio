@@ -27,7 +27,7 @@ export function Footer() {
           </div>
         </div>
         <div className="mt-10 flex flex-col gap-2 border-t border-line/40 pt-6 text-xs text-faint sm:flex-row sm:items-center sm:justify-between">
-          <p>© {new Date().getFullYear()} {site.name} · AI films & science stories</p>
+          <p>© {new Date().getFullYear()} {site.name} · AI films & visual stories</p>
           <p>Built for the feed · Directed, not summoned</p>
         </div>
       </div>

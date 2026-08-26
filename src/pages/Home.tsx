@@ -9,7 +9,7 @@ import { XIcon, TelegramIcon, GithubIcon, ArrowUpRight } from "../components/ico
 const marquee = [
   "Explainers",
   "Music videos",
-  "Science shorts",
+  "Short films",
   "AI direction",
   "Motion",
   "Visual storytelling",
@@ -215,8 +215,8 @@ export function Home() {
             </p>
             <p className="mt-8 text-lead leading-relaxed text-mute">{site.about}</p>
             <p className="mt-6 leading-relaxed text-mute">
-              I ship science shorts that make a concept feel human — and I obsess over the details that make AI footage
-              read like it was crewed, not conjured: palette discipline, continuity, and a cut that breathes.
+              From narratives to music videos to explainers, I obsess over the details that make AI footage read like it
+              was crewed, not conjured: palette discipline, continuity, and a cut that breathes.
             </p>
           </Reveal>
         </div>
