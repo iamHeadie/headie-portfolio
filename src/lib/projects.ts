@@ -269,28 +269,28 @@ export const projects: Project[] = [
     aspect: "video",
   },
   {
-    slug: "how-proof-of-work-works",
-    title: "How Proof of Work Works",
+    slug: "does-ai-think",
+    title: "Does AI Think?",
     kicker: "Paper-Craft · Explainer",
     year: "2026",
     runtime: "0:40",
     featured: true,
     logline:
-      "A paper-craft gear turns, a teal circle marks the beat, and forty seconds later you understand the engine that powers Bitcoin.",
+      "A paper-craft gear turns, teal strokes land on the beat, and forty seconds later you're not sure the answer is no.",
     objective:
-      "Explain proof of work without code, math or jargon. The goal was a single visual metaphor — the gear — that carries the entire concept: computational work produces a valid block, and the network trusts whoever turns it first.",
+      "Ask the question everyone argues about and make it feel genuine — not clickbait. The film needed to sit with the ambiguity: AI processes, patterns, responds — but does it think? Forty seconds to earn the doubt.",
     concept:
-      "Tactile and minimal. A paper-cut gear on warm stock does all the heavy lifting. Teal marker strokes highlight each step; the texture says handmade while the pacing says sharp. The style matches the Double-Slit and Electromagnetism shorts, extending the paper-craft universe into crypto.",
+      "Tactile and minimal. A paper-cut gear on warm stock does the heavy lifting — mechanism as metaphor for cognition. Teal marker strokes highlight each step; the texture says handmade while the pacing says sharp. The style matches the Double-Slit and Electromagnetism shorts, extending the paper-craft universe into AI.",
     role: "Director · Writer · Motion & Edit",
     tools: ["invideo Agent", "After Effects", "CapCut"],
     process: [
-      { t: "Metaphor", d: "Chose the gear as the single image — work in, block out — and built every frame around it." },
+      { t: "Question", d: "Started with the question, not the answer — the film's job is to make the viewer sit with it." },
       { t: "Design", d: "Kept the paper-craft palette: warm stock, teal accents, hand-drawn marker lines." },
-      { t: "Animate", d: "The gear turns on the beat; each rotation advances the explanation one step." },
-      { t: "Cut", d: "Trimmed to forty seconds — tight enough for a feed, clear enough to not need a rewatch." },
+      { t: "Animate", d: "The gear turns on the beat; each rotation advances the argument one step." },
+      { t: "Cut", d: "Trimmed to forty seconds — tight enough for a feed, open enough to start a conversation." },
     ],
-    poster: "/images/How-Proof-Of-Work-Works.jpg",
-    video: "/videos/How-Proof-Of-Work-Works_854x480.mp4",
+    poster: "/images/Does-AI-Think.jpg",
+    video: "/videos/Does-AI-Think_854x480.mp4",
     aspect: "video",
   },
   {
