@@ -244,6 +244,56 @@ export const projects: Project[] = [
     aspect: "video",
   },
   {
+    slug: "binance-bridge-hack",
+    title: "The Binance Bridge Hack",
+    kicker: "Crypto · News Explainer",
+    year: "2026",
+    runtime: "1:21",
+    featured: true,
+    logline:
+      "The $100 million bridge hack that shook Binance — broken down in eighty seconds with headlines, footage and a clear chain of cause and effect.",
+    objective:
+      "Turn a complex DeFi exploit into a story anyone can follow. The brief: a viewer who has never heard of a bridge hack should understand what happened, why it mattered, and what changed — all before they lose interest.",
+    concept:
+      "News-reel pacing on a paper-white backdrop. Real headlines scroll in, CZ appears in his hoodie, and the narrative builds from breach to hard fork in a tight, punchy sequence. The style borrows from broadcast news but strips the clutter — one idea per cut, no lower-thirds fighting for attention.",
+    role: "Director · Editor",
+    tools: ["After Effects", "CapCut"],
+    process: [
+      { t: "Research", d: "Mapped the hack timeline from breach to Moran hard fork — every claim sourced before scripting." },
+      { t: "Script", d: "Wrote a narration that builds like a news bulletin: what, how, how much, what next." },
+      { t: "Edit", d: "Cut headlines and footage to match the voiceover beat for beat — no dead air." },
+      { t: "Grade", d: "Kept the palette neutral and clean so the red of the alert badges carries all the urgency." },
+    ],
+    poster: "/images/Binance-Bridge-Hack.jpg",
+    video: "/videos/Binance-Bridge-Hack_640x360.mp4",
+    aspect: "video",
+  },
+  {
+    slug: "does-ai-think",
+    title: "Does AI Think?",
+    kicker: "Paper-Craft · Explainer",
+    year: "2026",
+    runtime: "0:40",
+    featured: true,
+    logline:
+      "A paper-craft gear turns, teal strokes land on the beat, and forty seconds later you're not sure the answer is no.",
+    objective:
+      "Ask the question everyone argues about and make it feel genuine — not clickbait. The film needed to sit with the ambiguity: AI processes, patterns, responds — but does it think? Forty seconds to earn the doubt.",
+    concept:
+      "Tactile and minimal. A paper-cut gear on warm stock does the heavy lifting — mechanism as metaphor for cognition. Teal marker strokes highlight each step; the texture says handmade while the pacing says sharp. The style matches the Double-Slit and Electromagnetism shorts, extending the paper-craft universe into AI.",
+    role: "Director · Writer · Motion & Edit",
+    tools: ["invideo Agent", "After Effects", "CapCut"],
+    process: [
+      { t: "Question", d: "Started with the question, not the answer — the film's job is to make the viewer sit with it." },
+      { t: "Design", d: "Kept the paper-craft palette: warm stock, teal accents, hand-drawn marker lines." },
+      { t: "Animate", d: "The gear turns on the beat; each rotation advances the argument one step." },
+      { t: "Cut", d: "Trimmed to forty seconds — tight enough for a feed, open enough to start a conversation." },
+    ],
+    poster: "/images/Does-AI-Think.jpg",
+    video: "/videos/Does-AI-Think_854x480.mp4",
+    aspect: "video",
+  },
+  {
     slug: "in-production",
     title: "Untitled — In Production",
     kicker: "Next Film",
