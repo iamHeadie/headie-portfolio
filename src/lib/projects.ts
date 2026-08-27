@@ -169,6 +169,31 @@ export const projects: Project[] = [
     aspect: "video",
   },
   {
+    slug: "the-bandits",
+    title: "The Bandits",
+    kicker: "Voxel · Animated Short",
+    year: "2026",
+    runtime: "0:30",
+    featured: true,
+    logline:
+      "Two block-headed bandits crack a vault, grab the cash, and sprint through a voxel underworld — a heist film built entirely from cubes.",
+    objective:
+      "Push AI-generated animation into stylised 3D territory. The goal was a complete heist narrative — setup, break-in, escape — in thirty seconds, with enough character and atmosphere to feel like a real animated short, not a tech demo.",
+    concept:
+      "Voxel noir. Every character and prop is built from hard-edged blocks, but the lighting, smoke and camera work sell weight and danger. The cigar glows, cash stacks shimmer, and the vault door looms — all within a low-poly world that reads as intentional style, not limitation.",
+    role: "Director · Editor · Motion Design",
+    tools: ["Minimax", "After Effects", "CapCut"],
+    process: [
+      { t: "World", d: "Designed the vault set in a voxel style — heavy metal, stacked cash, moody overhead light." },
+      { t: "Characters", d: "Gave each bandit a distinct silhouette and accessory (glasses + cigar, bandana + cap) for instant read." },
+      { t: "Action", d: "Choreographed the heist beat by beat — door, grab, run — so every second drives the story forward." },
+      { t: "Cut", d: "Edited for pace and punch, layered in bass-heavy score to sell the weight of the world." },
+    ],
+    poster: "/images/The-Bandits-Heist.jpg",
+    video: "/videos/The-Bandits-Heist_1280x720.mp4",
+    aspect: "video",
+  },
+  {
     slug: "in-production",
     title: "Untitled — In Production",
     kicker: "Next Film",
