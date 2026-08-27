@@ -1,14 +1,14 @@
 export const site = {
   name: "Headie",
   handle: "@iamheadie",
-  tagline: "AI visual storyteller",
+  tagline: "AI Creator · Video Editor & Motion Designer",
   thesis: "Ideas, made to linger.",
   hero: ["I turn ideas", "into films", "you can feel."],
-  email: "hello@headie.studio",
-  bio: "AI video creator and visual storyteller. I turn ideas into short-form films — narratives, music videos, explainers and experiments — crafted to stop the scroll and stay with you.",
+  email: "degenvick@gmail.com",
+  bio: "AI creator, video editor and motion designer. I turn ideas into short-form films — narratives, music videos, explainers and experiments — crafted to stop the scroll and stay with you.",
   about:
     "I make short films with AI as my camera and crew. I build worlds one prompt at a time — obsessing over palette, continuity and rhythm until a generated clip reads like it was directed, not summoned. The goal is never the tool. It's the moment the story lands.",
-  role: "AI Video Creator · Visual Storyteller",
+  role: "AI Creator · Video Editor & Motion Designer",
   location: "Nigeria · Working worldwide",
   socials: {
     x: "https://x.com/iamheadie",
