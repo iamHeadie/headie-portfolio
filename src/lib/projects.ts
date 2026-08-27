@@ -94,6 +94,56 @@ export const projects: Project[] = [
     aspect: "video",
   },
   {
+    slug: "invideo-agent",
+    title: "invideo Agent",
+    kicker: "AI Platform · Showcase",
+    year: "2026",
+    runtime: "0:33",
+    featured: true,
+    logline:
+      "A cinematic showcase of invideo's AI agent — the creative platform that turns a single prompt into a finished, production-ready video.",
+    objective:
+      "Demonstrate the feel and finish of AI-generated video by letting the platform itself be the subject. The goal: a viewer should see the output and stop asking whether AI video is ready.",
+    concept:
+      "The interface becomes the set. A woman reaches through a glass UI, selecting the agent; the film then lives inside the generation — smooth, polished, human. The tech disappears into the result.",
+    role: "Director · Editor",
+    tools: ["invideo Agent", "After Effects", "CapCut"],
+    process: [
+      { t: "Brief", d: "Centred the film on one claim: prompt in, cinematic video out." },
+      { t: "Capture", d: "Let invideo generate the hero shots, then selected for continuity and tone." },
+      { t: "Cut", d: "Edited tight — every cut reinforces speed and quality, nothing lingers without purpose." },
+      { t: "Polish", d: "Graded warm, matched the platform's own palette so product and output feel unified." },
+    ],
+    poster: "/images/Invideo-Agent-Showcase.jpg",
+    video: "/videos/Invideo-Agent-Showcase_1920x1080.mp4",
+    aspect: "video",
+  },
+  {
+    slug: "higgsfield-explainer",
+    title: "Higgsfield Explainer",
+    kicker: "2D Explainer · Product",
+    year: "2026",
+    runtime: "0:30",
+    featured: true,
+    logline:
+      "A punchy 2D explainer that breaks down Higgsfield's AI video platform — from prompt to finished cinematic video in seconds.",
+    objective:
+      "Translate a product pitch into motion. The brief was clarity at scroll-speed: anyone should understand what Higgsfield does within thirty seconds, without pausing or re-watching.",
+    concept:
+      "Flat, bold, animated. A laptop opens, the logo lands, and the rest is kinetic typography and clean iconography on an electric-blue field. No live footage — the 2D style keeps focus on the message, not the messenger.",
+    role: "Director · Motion Design · Edit",
+    tools: ["After Effects", "CapCut"],
+    process: [
+      { t: "Script", d: "Distilled the product story to three beats: problem, platform, proof." },
+      { t: "Design", d: "Locked a flat 2D style with a single accent colour so every frame reads instantly." },
+      { t: "Animate", d: "Built kinetic type and icon transitions that move with the voiceover rhythm." },
+      { t: "Deliver", d: "Rendered at 720p for fast-loading social embeds; the style holds at any size." },
+    ],
+    poster: "/images/Higgsfield-Explainer.jpg",
+    video: "/videos/Higgsfield-Explainer_1280x720.mp4",
+    aspect: "video",
+  },
+  {
     slug: "in-production",
     title: "Untitled — In Production",
     kicker: "Next Film",
