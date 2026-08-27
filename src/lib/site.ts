@@ -4,7 +4,7 @@ export const site = {
   tagline: "AI visual storyteller",
   thesis: "Ideas, made to linger.",
   hero: ["I turn ideas", "into films", "you can feel."],
-  email: "hello@headie.studio",
+  email: "degenvick@gmail.com",
   bio: "AI video creator and visual storyteller. I turn ideas into short-form films — narratives, music videos, explainers and experiments — crafted to stop the scroll and stay with you.",
   about:
     "I make short films with AI as my camera and crew. I build worlds one prompt at a time — obsessing over palette, continuity and rhythm until a generated clip reads like it was directed, not summoned. The goal is never the tool. It's the moment the story lands.",
