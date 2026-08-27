@@ -219,6 +219,31 @@ export const projects: Project[] = [
     aspect: "video",
   },
   {
+    slug: "internet-of-blockchains",
+    title: "The Internet of Blockchains",
+    kicker: "Retro Explainer · Web3",
+    year: "2026",
+    runtime: "1:37",
+    featured: true,
+    logline:
+      "A vintage film-grain explainer that breaks down how blockchains interconnect — told through retro typography and the warm haze of old celluloid.",
+    objective:
+      "Make blockchain interoperability feel approachable. The film needed to explain a dense technical idea — how separate chains talk to each other — in under two minutes, without jargon, using a visual style that keeps viewers watching instead of scrolling past.",
+    concept:
+      "Old film, new idea. The entire piece is graded to look like recovered 16mm footage — soft vignettes, film-gate flicker, and bold display type that punches through the grain. The retro aesthetic disarms the viewer so the concept lands before they realise it's a tech explainer.",
+    role: "Director · Editor · Motion Design",
+    tools: ["After Effects", "CapCut"],
+    process: [
+      { t: "Script", d: "Distilled interoperability to a single metaphor: chains as cities, bridges as roads between them." },
+      { t: "Look", d: "Built a 16mm film-grain pipeline — vignette, flicker, and warm halation — so every frame feels archival." },
+      { t: "Type", d: "Set key terms in heavy display type with glow edges so they read through the grain." },
+      { t: "Cut", d: "Paced the edit slower than the other shorts — the subject needs a beat to breathe and land." },
+    ],
+    poster: "/images/Internet-Of-Blockchains.jpg",
+    video: "/videos/Internet-Of-Blockchains_1440x1080.mp4",
+    aspect: "video",
+  },
+  {
     slug: "in-production",
     title: "Untitled — In Production",
     kicker: "Next Film",
