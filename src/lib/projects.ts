@@ -19,6 +19,31 @@ export type Project = {
 
 export const projects: Project[] = [
   {
+    slug: "claude-makes-videos",
+    title: "Claude Can Make Videos?!",
+    kicker: "AI Workflow · Explainer",
+    year: "2026",
+    runtime: "0:30",
+    featured: true,
+    logline:
+      "A retro paper-craft breakdown of how Claude plugs into video tools — proving the AI you know for text can direct a finished film.",
+    objective:
+      "Show a non-technical audience that Claude isn't just a chatbot — it's a creative director. The film had to land one idea in thirty seconds: Claude + the right plugins = cinematic video, no code required.",
+    concept:
+      "Ransom-note typography on craft paper, vintage colour blocks, and a tactile collage aesthetic. The plug literally connects on screen — two prongs meeting inside a teal circle — so the integration feels physical, not abstract. Every frame is designed to screenshot well.",
+    role: "Director · Editor · Motion Design",
+    tools: ["Claude", "invideo Agent", "After Effects", "CapCut"],
+    process: [
+      { t: "Hook", d: "Led with the question the audience is already asking: 'Claude can make videos?!'" },
+      { t: "Design", d: "Built a paper-craft collage style — warm stock, torn edges, stamp type — so each frame feels handmade." },
+      { t: "Connect", d: "Animated the plug metaphor to land the idea physically: two tools click together, video comes out." },
+      { t: "Cut", d: "Kept it under thirty seconds — every beat earns its frame, nothing outstays." },
+    ],
+    poster: "/images/Claude-Makes-Videos.png",
+    video: "/videos/Claude-Makes-Videos_854x480.mp4",
+    aspect: "video",
+  },
+  {
     slug: "double-slit",
     title: "The Double-Slit",
     kicker: "Quantum Mechanics",
