@@ -96,14 +96,14 @@ export function Home() {
           </div>
 
           {/* Ambient reel panel */}
-          <Reveal delay={300} className="mx-auto w-full max-w-xs sm:max-w-sm lg:mx-0 lg:ml-auto">
+          <Reveal delay={300} className={`mx-auto w-full lg:mx-0 lg:ml-auto ${heroProject.aspect === "portrait" ? "max-w-xs sm:max-w-sm" : "max-w-md sm:max-w-lg"}`}>
             <button
               type="button"
               onClick={() => setPlaying(heroProject)}
               className="group relative block w-full overflow-hidden rounded-lg border border-line/60 bg-ink shadow-2xl"
               aria-label={`Play ${heroProject.title}`}
             >
-              <div className="relative aspect-[9/16]">
+              <div className={`relative ${heroProject.aspect === "portrait" ? "aspect-[9/16]" : "aspect-video"}`}>
                 <video
                   ref={heroVideo}
                   className="absolute inset-0 h-full w-full object-cover"
