@@ -194,6 +194,31 @@ export const projects: Project[] = [
     aspect: "video",
   },
   {
+    slug: "arcade-of-speculation",
+    title: "The Arcade of Speculation",
+    kicker: "Motion Type · Conceptual",
+    year: "2026",
+    runtime: "0:32",
+    featured: true,
+    logline:
+      "A kinetic-type short that turns crypto speculation into an arcade — bold typography, a ticking clock, and the question no one can answer: when do you cash out?",
+    objective:
+      "Take the language and anxiety of speculative markets and make it feel visceral. The film had to land in under a minute on a feed, using motion typography and minimal iconography to hold attention without live footage.",
+    concept:
+      "Dark field, hot orange. An arcade cabinet becomes the metaphor — speculation as a game with real stakes and a timer running down. Every word earns its frame: big type hits hard, then dissolves before the viewer can settle. The style borrows from retro interfaces and brutalist poster design.",
+    role: "Director · Motion Design · Edit",
+    tools: ["After Effects", "CapCut"],
+    process: [
+      { t: "Script", d: "Wrote the narration as a series of punches — short, declarative, timed to land on the beat." },
+      { t: "Design", d: "Locked a dark-on-orange palette with a single line-art arcade cabinet as the recurring motif." },
+      { t: "Animate", d: "Built kinetic type that scales, fades and snaps in rhythm with the voiceover." },
+      { t: "Cut", d: "Mixed the audio bed low and percussive so the words carry the energy, not the music." },
+    ],
+    poster: "/images/Arcade-Of-Speculation.jpg",
+    video: "/videos/Arcade-Of-Speculation_1920x1080.mp4",
+    aspect: "video",
+  },
+  {
     slug: "in-production",
     title: "Untitled — In Production",
     kicker: "Next Film",
