@@ -299,22 +299,20 @@ export function Home() {
                   </p>
                 </div>
                 <div className="relative mt-8">
-                  <div className="-mx-2 flex gap-3 overflow-x-auto px-2 pb-4" style={{ scrollbarWidth: "none" }}>
+                  <div className="grid gap-2">
                     {site.socials.xPosts.map((url, i) => (
                       <a
                         key={i}
                         href={url}
                         target="_blank"
                         rel="noreferrer"
-                        className="group flex w-56 shrink-0 flex-col justify-between rounded-md border border-line/50 bg-void/40 p-4 transition hover:border-bone/25"
+                        className="group flex items-center gap-3 rounded-md border border-line/50 bg-void/40 px-4 py-3 transition hover:border-bone/25"
                       >
-                        <div className="flex items-center gap-2">
-                          <span className="flex h-7 w-7 items-center justify-center rounded-full bg-bone/10">
-                            <XIcon className="h-3.5 w-3.5 text-bone/70" />
-                          </span>
-                          <span className="text-xs text-mute">{site.handle}</span>
-                        </div>
-                        <span className="mt-3 inline-flex items-center gap-1 text-xs text-mute group-hover:text-teal">
+                        <span className="flex h-7 w-7 shrink-0 items-center justify-center rounded-full bg-bone/10">
+                          <XIcon className="h-3.5 w-3.5 text-bone/70" />
+                        </span>
+                        <span className="text-sm text-bone/80">{site.handle}</span>
+                        <span className="ml-auto inline-flex items-center gap-1 text-xs text-mute group-hover:text-teal">
                           View post <ArrowUpRight className="h-3 w-3" />
                         </span>
                       </a>
