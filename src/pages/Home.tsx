@@ -299,19 +299,23 @@ export function Home() {
                   </p>
                 </div>
                 <div className="relative mt-8">
-                  {/* Space reserved for a live post feed when an X API key is configured */}
-                  <div className="grid gap-2 sm:grid-cols-2">
-                    {[hoverPost(featured[0]), hoverPost(featured[1])].map((p, i) => (
+                  <div className="-mx-2 flex gap-3 overflow-x-auto px-2 pb-4" style={{ scrollbarWidth: "none" }}>
+                    {site.socials.xPosts.map((url, i) => (
                       <a
                         key={i}
-                        href={site.socials.x}
+                        href={url}
                         target="_blank"
                         rel="noreferrer"
-                        className="group rounded-md border border-line/50 bg-void/40 p-4 transition hover:border-bone/25"
+                        className="group flex w-56 shrink-0 flex-col justify-between rounded-md border border-line/50 bg-void/40 p-4 transition hover:border-bone/25"
                       >
-                        <p className="text-sm leading-relaxed text-bone/90">{p}</p>
-                        <span className="mt-2 inline-flex items-center gap-1 text-xs text-mute group-hover:text-teal">
-                          View on X <ArrowUpRight className="h-3 w-3" />
+                        <div className="flex items-center gap-2">
+                          <span className="flex h-7 w-7 items-center justify-center rounded-full bg-bone/10">
+                            <XIcon className="h-3.5 w-3.5 text-bone/70" />
+                          </span>
+                          <span className="text-xs text-mute">{site.handle}</span>
+                        </div>
+                        <span className="mt-3 inline-flex items-center gap-1 text-xs text-mute group-hover:text-teal">
+                          View post <ArrowUpRight className="h-3 w-3" />
                         </span>
                       </a>
                     ))}
@@ -424,8 +428,3 @@ export function Home() {
   );
 }
 
-// Placeholder post copy shown until a live X feed is wired in.
-function hoverPost(p?: Project) {
-  if (!p) return "New film dropping soon.";
-  return `“${p.title}” — ${p.kicker.toLowerCase()} in ${p.runtime}. Full breakdown in the thread ↓`;
-}

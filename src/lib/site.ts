@@ -15,6 +15,15 @@ export const site = {
     xHandle: "iamheadie",
     telegram: "https://t.me/Headiee",
     github: "https://github.com/iamHeadie",
+    xPosts: [
+      "https://x.com/iamheadie/status/2088153273656017048",
+      "https://x.com/iamheadie/status/2088527068141138370",
+      "https://x.com/iamheadie/status/2093251004732985753",
+      "https://x.com/iamheadie/status/2091946079692394902",
+      "https://x.com/iamheadie/status/2090682253324017869",
+      "https://x.com/iamheadie/status/2065064823855931628",
+      "https://x.com/iamheadie/status/2062055439777382419",
+    ],
   },
   tools: [
     { name: "invideo Agent", role: "Generation & continuity" },
