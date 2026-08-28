@@ -319,6 +319,31 @@ export const projects: Project[] = [
     aspect: "video",
   },
   {
+    slug: "lagos-state",
+    title: "Lagos State",
+    kicker: "Narrative · Short Film",
+    year: "2026",
+    runtime: "0:27",
+    featured: true,
+    logline:
+      "A young woman in a Lagos State tee, head down in a warm-lit library — twenty-seven seconds of quiet focus that say more than dialogue ever could.",
+    objective:
+      "Prove that AI-generated film can carry intimacy. No effects, no motion graphics — just a character, a setting, and enough cinematic craft to make the viewer feel like they walked into someone's real afternoon.",
+    concept:
+      "Warm and still. Shallow depth of field dissolves the library shelves into bokeh; the only sharpness is her face, her braids, the faded college print on her shirt. The palette leans amber and brown, the lighting feels like late afternoon through dusty windows. Every choice says: this is a person, not a render.",
+    role: "Director · Cinematography · Edit",
+    tools: ["invideo Agent", "Minimax", "After Effects", "CapCut"],
+    process: [
+      { t: "Character", d: "Locked the look first — braids, Lagos State tee, small hoop earring — so she reads as specific, not generic." },
+      { t: "Setting", d: "Built the library as a lived-in space: warm wood, soft shelves, natural light that wraps around her." },
+      { t: "Mood", d: "Kept the camera close and the edit slow — every frame earns its stillness." },
+      { t: "Grade", d: "Pushed the grade warm and low-contrast so the image feels analogue, not digital." },
+    ],
+    poster: "/images/Lagos-State.jpg",
+    video: "/videos/Lagos-State_1920x1080.mp4",
+    aspect: "video",
+  },
+  {
     slug: "in-production",
     title: "Untitled — In Production",
     kicker: "Next Film",
