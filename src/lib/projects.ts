@@ -19,6 +19,31 @@ export type Project = {
 
 export const projects: Project[] = [
   {
+    slug: "tired-of-the-old-way",
+    title: "Tired of the Old Way?",
+    kicker: "Fintech · Product Ad",
+    year: "2026",
+    runtime: "0:34",
+    featured: true,
+    logline:
+      "Transfer failed, long queues, card declined — a thirty-second fintech ad that turns banking frustration into a reason to switch.",
+    objective:
+      "Sell a feeling, not a feature list. The brief was to make everyday banking pain visceral — failed transfers, branch queues, declined cards — then resolve it all in one clean product reveal that says: there's a better way.",
+    concept:
+      "Dark purple gradient meets crisp UI cards. Pain points float in as notification badges the viewer already dreads, then the product sweeps them away with a teal-and-green palette that reads secure and modern. The shift from problem to solution mirrors the emotional arc: frustration to relief in under thirty seconds.",
+    role: "Director · Motion Design · Edit",
+    tools: ["After Effects", "CapCut"],
+    process: [
+      { t: "Hook", d: "Opened with the pain — 'Transfer failed,' 'Long queues' — so the viewer feels the frustration before the fix." },
+      { t: "Design", d: "Built notification-style UI cards on a deep purple field; each badge is a real annoyance, not a generic icon." },
+      { t: "Pivot", d: "Timed the brand reveal to land the moment the last pain point clears — relief as a beat." },
+      { t: "Polish", d: "Graded the palette from warm warning tones to cool teal-green to mirror the emotional shift." },
+    ],
+    poster: "/images/Tired-Of-The-Old-Way.png",
+    video: "/videos/Tired-Of-The-Old-Way_1920x1080.mp4",
+    aspect: "video",
+  },
+  {
     slug: "claude-makes-videos",
     title: "Claude Can Make Videos?!",
     kicker: "AI Workflow · Explainer",
