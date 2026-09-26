@@ -19,6 +19,31 @@ export type Project = {
 
 export const projects: Project[] = [
   {
+    slug: "nothing-to-claim",
+    title: "Nothing to Claim",
+    kicker: "Cinematic · Poetry Film",
+    year: "2026",
+    runtime: "0:42",
+    featured: true,
+    logline:
+      "Dark farmland, humming servers, and a voice that says what's left when there's nothing to claim — a visual poem on existence and the void.",
+    objective:
+      "Push AI film into poetry territory. No plot, no product, no explainer — just atmosphere, rhythm and a line of text that lands like a gut punch. The film had to prove that AI-generated imagery can carry weight without a narrative crutch.",
+    concept:
+      "Teal and black. Endless crop rows vanish into storm haze; server racks blink in a cathedral of data; bold serif type hits on a dark-green field. The palette never warms — every frame lives in shadow and cold light, so the words carry all the heat. The visual logic borrows from Tarkovsky's still landscapes and Fincher's server-room cool.",
+    role: "Director · Writer · Motion & Edit",
+    tools: ["invideo Agent", "Minimax", "After Effects", "CapCut"],
+    process: [
+      { t: "Write", d: "Wrote the narration as a single spoken thought — no chapters, no turns, just one breath that builds." },
+      { t: "World", d: "Built two visual anchors — the open field and the server aisle — and cut between them as the idea deepens." },
+      { t: "Grade", d: "Crushed the shadows and pushed the palette teal-green so every frame reads as nocturnal, even in daylight." },
+      { t: "Cut", d: "Timed the type hits to the voiceover pauses — the silence between words does half the work." },
+    ],
+    poster: "/images/Nothing-To-Claim.jpg",
+    video: "/videos/Nothing-To-Claim_1280x720.mp4",
+    aspect: "video",
+  },
+  {
     slug: "tired-of-the-old-way",
     title: "Tired of the Old Way?",
     kicker: "Fintech · Product Ad",
