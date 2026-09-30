@@ -67,7 +67,9 @@ export function ProjectPage() {
               className={`relative mx-auto w-full ${
                 project.aspect === "portrait"
                   ? "aspect-[9/16] max-h-[80dvh] max-w-[380px] sm:max-w-[420px]"
-                  : "aspect-video max-w-4xl"
+                  : project.aspect === "square"
+                    ? "aspect-square max-w-[560px]"
+                    : "aspect-video max-w-4xl"
               }`}
             >
               <img

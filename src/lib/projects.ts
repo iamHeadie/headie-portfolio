@@ -14,7 +14,7 @@ export type Project = {
   process: { t: string; d: string }[];
   poster: string;
   video: string;
-  aspect: "video" | "portrait";
+  aspect: "video" | "portrait" | "square";
 };
 
 export const projects: Project[] = [
@@ -367,6 +367,81 @@ export const projects: Project[] = [
     poster: "/images/Lagos-State.jpg",
     video: "/videos/Lagos-State_1920x1080.mp4",
     aspect: "video",
+  },
+  {
+    slug: "claude-motion-reel",
+    title: "Claude Motion Reel",
+    kicker: "Motion Design · Showreel",
+    year: "2026",
+    runtime: "0:15",
+    featured: true,
+    logline:
+      "Easing, kinetic type, depth, fluid sim — fifteen seconds, one take, zero cuts, every motion principle on a single burnt-orange stage.",
+    objective:
+      "Compress a motion designer's toolkit into a reel short enough to autoplay in a feed. Each technique gets its own labelled chapter so a client can see the range at a glance — then the whole thing resolves into a title card that doubles as a calling card.",
+    concept:
+      "Broadcast-monitor framing. A timecode HUD, frame counter and chapter labels sit around the edges like a viewfinder, while oversized ghost type — EASE, DATA, DEPTH, FLUID — anchors each section. A single orange dot travels through everything, then floods the frame for the final CLAUDE. card.",
+    role: "Motion Design · Direction",
+    tools: ["Claude", "Hyperframes", "After Effects"],
+    process: [
+      { t: "Structure", d: "Split the reel into labelled chapters — easing, kinetic type, 3D, fluid sim, transitions." },
+      { t: "System", d: "Locked one palette (black, bone, burnt orange) and one moving dot as the thread through every section." },
+      { t: "Build", d: "Generated the frames programmatically so every chapter lands on an exact frame count — 450 frames, one take." },
+      { t: "Resolve", d: "Ended on a full-bleed orange title card with the skill tags, so the last frame works as a poster." },
+    ],
+    poster: "/images/Claude-Motion-Reel.jpg",
+    video: "/videos/Claude-Motion-Reel_1920x1080.mp4",
+    aspect: "video",
+  },
+  {
+    slug: "black-clover-edit",
+    title: "Black Clover — Anime Edit",
+    kicker: "Anime Edit · AI Workflow",
+    year: "2026",
+    runtime: "0:22",
+    featured: true,
+    logline:
+      "From timeline to screen — an AI agent cuts a Black Clover fight into a hype edit, and the film shows you exactly how it was made.",
+    objective:
+      "Show that an AI editing agent can handle the fast, beat-driven cutting anime edits demand. The piece opens on the actual edit session, then hands over to the finished cut so the viewer sees process and payoff in one clip.",
+    concept:
+      "Behind-the-scenes to full-screen. The first beat is the editor itself — timeline, clips, prompt panel — then it smashes into Asta's sword strike in blazing red, grimoire pages exploding in neon, and a cold blue close-up to close. Colour does the storytelling: red for impact, green for magic, blue for the calm before the next hit.",
+    role: "Editor · Motion",
+    tools: ["invideo Agent", "CapCut"],
+    process: [
+      { t: "Source", d: "Pulled the key Black Clover moments — the sword swing, the grimoire burst, the quiet close-up." },
+      { t: "Direct", d: "Briefed the AI agent on pacing and beat markers, then refined the cut inside the timeline." },
+      { t: "Reveal", d: "Opened on the screen recording so the audience sees the workflow before the result." },
+      { t: "Cut", d: "Snapped every hit to the music — flashes, speed ramps and glitch frames on the downbeats." },
+    ],
+    poster: "/images/Black-Clover-Edit.jpg",
+    video: "/videos/Black-Clover-Edit_1920x1080.mp4",
+    aspect: "video",
+  },
+  {
+    slug: "vegas-nights",
+    title: "Vegas Nights",
+    kicker: "Retro · Lifestyle Promo",
+    year: "2026",
+    runtime: "0:23",
+    featured: true,
+    logline:
+      "Casino chips in slow motion, a neon pool party, a mustachioed high roller on a camel at sunset — a pink-soaked retro Vegas fever dream.",
+    objective:
+      "Build a lifestyle promo that sells a mood, not a product. The brief was pure energy: every shot should feel like the best night of someone's life, with enough absurd humour to make people rewatch and share.",
+    concept:
+      "Sixties Vegas through a candy filter. Hot pink and teal neon, vintage swimwear, flying chips and popping champagne. The recurring high roller — gold chain, big moustache, zero shirt — turns up at the tables and in the desert, giving the montage a character to follow and a running joke to land.",
+    role: "Director · Editor",
+    tools: ["invideo Agent", "Minimax", "CapCut"],
+    process: [
+      { t: "Mood", d: "Built a palette board first — flamingo pink, pool teal, sunset gold — and held every shot to it." },
+      { t: "Character", d: "Kept the high roller consistent across casino, pool and desert so he carries the montage." },
+      { t: "Generate", d: "Generated slow-motion hero moments: chips mid-air, the champagne pop, the camel ride." },
+      { t: "Cut", d: "Delivered square for the feed and paced the edit like a party — fast, loud, no dead frames." },
+    ],
+    poster: "/images/Vegas-Nights.jpg",
+    video: "/videos/Vegas-Nights_720x720.mp4",
+    aspect: "square",
   },
   {
     slug: "in-production",
