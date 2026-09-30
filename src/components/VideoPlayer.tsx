@@ -48,7 +48,11 @@ export function VideoPlayer({
 
       <div
         className={`lb-panel relative flex max-h-[92dvh] w-full flex-col px-4 ${
-          project.aspect === "portrait" ? "max-w-[420px] sm:max-w-[440px]" : "max-w-5xl"
+          project.aspect === "portrait"
+            ? "max-w-[420px] sm:max-w-[440px]"
+            : project.aspect === "square"
+              ? "max-w-[640px]"
+              : "max-w-5xl"
         }`}
         onClick={(e) => e.stopPropagation()}
       >
@@ -56,7 +60,7 @@ export function VideoPlayer({
           <video
             ref={videoRef}
             className={`mx-auto w-full bg-black object-contain ${
-              project.aspect === "portrait" ? "max-h-[78dvh]" : "max-h-[72dvh]"
+              project.aspect === "video" ? "max-h-[72dvh]" : "max-h-[78dvh]"
             }`}
             controls
             autoPlay

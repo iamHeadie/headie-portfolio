@@ -77,9 +77,15 @@ export function ProjectCard({
           <div
             className={cn(
               "relative max-h-full max-w-full overflow-hidden rounded-sm shadow-2xl ring-1 ring-white/5",
-              project.aspect === "portrait" ? "h-full" : "w-full",
+              project.aspect === "portrait"
+                ? "h-full"
+                : project.aspect === "square" && large
+                  ? "w-full sm:h-full sm:w-auto"
+                  : "w-full",
             )}
-            style={{ aspectRatio: project.aspect === "portrait" ? "9 / 16" : "16 / 9" }}
+            style={{
+              aspectRatio: project.aspect === "portrait" ? "9 / 16" : project.aspect === "square" ? "1 / 1" : "16 / 9",
+            }}
           >
             <img
               src={project.poster}
