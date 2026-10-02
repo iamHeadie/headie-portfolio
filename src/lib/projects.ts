@@ -19,6 +19,31 @@ export type Project = {
 
 export const projects: Project[] = [
   {
+    slug: "hyperbeat-beat-the-banks",
+    title: "Hyperbeat — Beat the Banks",
+    kicker: "Fintech · Product Ad",
+    year: "2026",
+    runtime: "0:20",
+    featured: true,
+    logline:
+      "It opens like your bank's ad — then the screen glitches into a dot-matrix beat machine: passkey sign-up, up to 8% APY, no CEX, no bank, no waiting.",
+    objective:
+      "Sell a liquid-banking app to people who are tired of being told to wait. In twenty seconds the ad had to land four product claims, make them feel fast, and leave the viewer with one line and one URL.",
+    concept:
+      "A fake-out, then a beat. The first frame parodies a legacy bank spot — cream background, serif type, 'Serving you since forever' — before Hyperbeat hijacks it. Everything after is cut to 131 BPM: a recording HUD counts beats and timecode, dot-matrix type punches each claim on the downbeat, and orange tape notes heckle the old way. It ends on the pixel-heart logo and 'Beat the banks.'",
+    role: "Director · Motion Design · Edit",
+    tools: ["Claude", "Hyperframes", "After Effects", "CapCut"],
+    process: [
+      { t: "Hook", d: "Opened on a parody of a traditional bank ad, so the switch to Hyperbeat lands as a surprise." },
+      { t: "Tempo", d: "Locked the edit to 131 BPM — 37 beats, every cut and type hit on the grid." },
+      { t: "System", d: "Built a dot-matrix type and logo system with a REC/BPM HUD that frames the whole ad." },
+      { t: "Payoff", d: "Closed on logo, tagline, URL and asset chips, with one last joke: 'your bank still has you on hold.'" },
+    ],
+    poster: "/images/Hyperbeat-Beat-The-Banks.jpg",
+    video: "/videos/Hyperbeat-Beat-The-Banks_1920x1080.mp4",
+    aspect: "video",
+  },
+  {
     slug: "nothing-to-claim",
     title: "Nothing to Claim",
     kicker: "Cinematic · Poetry Film",
