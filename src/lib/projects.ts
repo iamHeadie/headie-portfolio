@@ -19,31 +19,6 @@ export type Project = {
 
 export const projects: Project[] = [
   {
-    slug: "hl-media",
-    title: "HL/Media — The House of All Finance",
-    kicker: "Crypto · Brand Film",
-    year: "2026",
-    runtime: "1:05",
-    featured: true,
-    logline:
-      "Points, builder codes, a Congressional record, an ETF on the NYSE — Hyperliquid's rise told through its own posts, its memes and its people, all the way to 'the house of all finance.'",
-    objective:
-      "Turn a protocol's timeline into a story the community feels part of. The film had to move from milestones to culture to ambition in about a minute, so long-time holders nod along and newcomers understand why people care.",
-    concept:
-      "Receipts, then mythology. It opens on real posts sliding in at an angle with key phrases highlighted in Hyperliquid mint, then shifts into a black-and-white world of community cutouts, memes with glowing neon doodles, a packed stadium and a jet flyover. A lone figure walks a tunnel toward the glowing logo under 'the house of all finance.' before the HL/MEDIA sign-off. Film grain and a monochrome grade with one mint accent tie it together.",
-    role: "Director · Editor · Motion Design",
-    tools: ["After Effects", "CapCut"],
-    process: [
-      { t: "Timeline", d: "Picked the milestone posts — points, builder codes, USDH, the Congressional record, the Bitwise ETF — and ordered them as a story." },
-      { t: "Highlight", d: "Animated each post sliding in and marked the one phrase that matters in mint, so the viewer reads it in a beat." },
-      { t: "Culture", d: "Built the middle from community moments and memes, with hand-drawn neon doodles over black-and-white cutouts." },
-      { t: "Landing", d: "Graded everything monochrome with film grain, then closed on the tunnel shot, the tagline and the HL/MEDIA card." },
-    ],
-    poster: "/images/HL-Media.jpg",
-    video: "/videos/HL-Media_1920x1080.mp4",
-    aspect: "video",
-  },
-  {
     slug: "hyperbeat-beat-the-banks",
     title: "Hyperbeat — Beat the Banks",
     kicker: "Fintech · Product Ad",
