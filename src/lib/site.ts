@@ -3,7 +3,7 @@ export const site = {
   handle: "@iamheadie",
   tagline: "AI Creator · Video Editor & Motion Designer",
   thesis: "Ideas, made to linger.",
-  hero: ["I turn ideas", "into films", "you can feel."],
+  hero: ["I make motion", "designs and edits", "that people", "can feel."],
   email: "degenvick@gmail.com",
   bio: "AI creator, video editor and motion designer. I turn ideas into short-form films — narratives, music videos, explainers and experiments — crafted to stop the scroll and stay with you.",
   about:
