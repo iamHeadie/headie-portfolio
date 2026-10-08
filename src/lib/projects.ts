@@ -219,31 +219,6 @@ export const projects: Project[] = [
     aspect: "video",
   },
   {
-    slug: "invideo-agent",
-    title: "invideo Agent",
-    kicker: "AI Platform · Showcase",
-    year: "2026",
-    runtime: "0:33",
-    featured: true,
-    logline:
-      "A cinematic showcase of invideo's AI agent — the creative platform that turns a single prompt into a finished, production-ready video.",
-    objective:
-      "Demonstrate the feel and finish of AI-generated video by letting the platform itself be the subject. The goal: a viewer should see the output and stop asking whether AI video is ready.",
-    concept:
-      "The interface becomes the set. A woman reaches through a glass UI, selecting the agent; the film then lives inside the generation — smooth, polished, human. The tech disappears into the result.",
-    role: "Director · Editor",
-    tools: ["invideo Agent", "After Effects", "CapCut"],
-    process: [
-      { t: "Brief", d: "Centred the film on one claim: prompt in, cinematic video out." },
-      { t: "Capture", d: "Let invideo generate the hero shots, then selected for continuity and tone." },
-      { t: "Cut", d: "Edited tight — every cut reinforces speed and quality, nothing lingers without purpose." },
-      { t: "Polish", d: "Graded warm, matched the platform's own palette so product and output feel unified." },
-    ],
-    poster: "/images/Invideo-Agent-Showcase.jpg",
-    video: "/videos/Invideo-Agent-Showcase_1920x1080.mp4",
-    aspect: "video",
-  },
-  {
     slug: "higgsfield-explainer",
     title: "Higgsfield Explainer",
     kicker: "2D Explainer · Product",
@@ -291,31 +266,6 @@ export const projects: Project[] = [
     ],
     poster: "/images/The-Bandits-Heist.jpg",
     video: "/videos/The-Bandits-Heist_1280x720.mp4",
-    aspect: "video",
-  },
-  {
-    slug: "arcade-of-speculation",
-    title: "The Arcade of Speculation",
-    kicker: "Motion Type · Conceptual",
-    year: "2026",
-    runtime: "0:32",
-    featured: true,
-    logline:
-      "A kinetic-type short that turns crypto speculation into an arcade — bold typography, a ticking clock, and the question no one can answer: when do you cash out?",
-    objective:
-      "Take the language and anxiety of speculative markets and make it feel visceral. The film had to land in under a minute on a feed, using motion typography and minimal iconography to hold attention without live footage.",
-    concept:
-      "Dark field, hot orange. An arcade cabinet becomes the metaphor — speculation as a game with real stakes and a timer running down. Every word earns its frame: big type hits hard, then dissolves before the viewer can settle. The style borrows from retro interfaces and brutalist poster design.",
-    role: "Director · Motion Design · Edit",
-    tools: ["After Effects", "CapCut"],
-    process: [
-      { t: "Script", d: "Wrote the narration as a series of punches — short, declarative, timed to land on the beat." },
-      { t: "Design", d: "Locked a dark-on-orange palette with a single line-art arcade cabinet as the recurring motif." },
-      { t: "Animate", d: "Built kinetic type that scales, fades and snaps in rhythm with the voiceover." },
-      { t: "Cut", d: "Mixed the audio bed low and percussive so the words carry the energy, not the music." },
-    ],
-    poster: "/images/Arcade-Of-Speculation.jpg",
-    video: "/videos/Arcade-Of-Speculation_1920x1080.mp4",
     aspect: "video",
   },
   {
@@ -394,31 +344,6 @@ export const projects: Project[] = [
     aspect: "video",
   },
   {
-    slug: "lagos-state",
-    title: "Lagos State",
-    kicker: "Narrative · Short Film",
-    year: "2026",
-    runtime: "0:27",
-    featured: true,
-    logline:
-      "A young woman in a Lagos State tee, head down in a warm-lit library — twenty-seven seconds of quiet focus that say more than dialogue ever could.",
-    objective:
-      "Prove that AI-generated film can carry intimacy. No effects, no motion graphics — just a character, a setting, and enough cinematic craft to make the viewer feel like they walked into someone's real afternoon.",
-    concept:
-      "Warm and still. Shallow depth of field dissolves the library shelves into bokeh; the only sharpness is her face, her braids, the faded college print on her shirt. The palette leans amber and brown, the lighting feels like late afternoon through dusty windows. Every choice says: this is a person, not a render.",
-    role: "Director · Cinematography · Edit",
-    tools: ["invideo Agent", "Minimax", "After Effects", "CapCut"],
-    process: [
-      { t: "Character", d: "Locked the look first — braids, Lagos State tee, small hoop earring — so she reads as specific, not generic." },
-      { t: "Setting", d: "Built the library as a lived-in space: warm wood, soft shelves, natural light that wraps around her." },
-      { t: "Mood", d: "Kept the camera close and the edit slow — every frame earns its stillness." },
-      { t: "Grade", d: "Pushed the grade warm and low-contrast so the image feels analogue, not digital." },
-    ],
-    poster: "/images/Lagos-State.jpg",
-    video: "/videos/Lagos-State_1920x1080.mp4",
-    aspect: "video",
-  },
-  {
     slug: "claude-motion-reel",
     title: "Claude Motion Reel",
     kicker: "Motion Design · Showreel",
@@ -467,31 +392,6 @@ export const projects: Project[] = [
     poster: "/images/Black-Clover-Edit.jpg",
     video: "/videos/Black-Clover-Edit_1920x1080.mp4",
     aspect: "video",
-  },
-  {
-    slug: "vegas-nights",
-    title: "Vegas Nights",
-    kicker: "Retro · Lifestyle Promo",
-    year: "2026",
-    runtime: "0:23",
-    featured: true,
-    logline:
-      "Casino chips in slow motion, a neon pool party, a mustachioed high roller on a camel at sunset — a pink-soaked retro Vegas fever dream.",
-    objective:
-      "Build a lifestyle promo that sells a mood, not a product. The brief was pure energy: every shot should feel like the best night of someone's life, with enough absurd humour to make people rewatch and share.",
-    concept:
-      "Sixties Vegas through a candy filter. Hot pink and teal neon, vintage swimwear, flying chips and popping champagne. The recurring high roller — gold chain, big moustache, zero shirt — turns up at the tables and in the desert, giving the montage a character to follow and a running joke to land.",
-    role: "Director · Editor",
-    tools: ["invideo Agent", "Minimax", "CapCut"],
-    process: [
-      { t: "Mood", d: "Built a palette board first — flamingo pink, pool teal, sunset gold — and held every shot to it." },
-      { t: "Character", d: "Kept the high roller consistent across casino, pool and desert so he carries the montage." },
-      { t: "Generate", d: "Generated slow-motion hero moments: chips mid-air, the champagne pop, the camel ride." },
-      { t: "Cut", d: "Delivered square for the feed and paced the edit like a party — fast, loud, no dead frames." },
-    ],
-    poster: "/images/Vegas-Nights.jpg",
-    video: "/videos/Vegas-Nights_720x720.mp4",
-    aspect: "square",
   },
   {
     slug: "in-production",
