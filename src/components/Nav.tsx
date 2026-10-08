@@ -35,6 +35,7 @@ export function Nav() {
   }, [open]);
 
   return (
+    <>
     <header
       className={cn(
         "fixed inset-x-0 top-0 z-40 transition-all duration-500",
@@ -103,20 +104,23 @@ export function Nav() {
           </div>
         </button>
       </div>
+    </header>
 
-      {/* Mobile overlay */}
+      {/* Kept outside <header>: its backdrop-blur would make it the containing block for this fixed overlay. */}
       <div
         className={cn(
-          "fixed inset-0 top-16 z-40 flex flex-col justify-between bg-void px-6 py-10 transition-all duration-500 md:hidden",
+          "fixed inset-x-0 bottom-0 top-16 z-30 flex flex-col justify-between bg-void px-6 py-10 transition-all duration-500 sm:top-20 md:hidden",
           open ? "pointer-events-auto opacity-100" : "pointer-events-none opacity-0",
         )}
+        aria-hidden={!open}
       >
-        <nav className="flex flex-col gap-1">
+        <nav className="flex flex-col items-end gap-3 text-right">
           {links.map((l, i) => (
             <a
               key={l.href}
               href={l.href}
               onClick={() => setOpen(false)}
+              tabIndex={open ? 0 : -1}
               className="font-display text-4xl italic text-bone transition-transform duration-500"
               style={{ transitionDelay: open ? `${i * 40 + 60}ms` : "0ms" }}
             >
@@ -124,12 +128,18 @@ export function Nav() {
             </a>
           ))}
         </nav>
-        <div className="flex items-center gap-5 text-sm text-mute">
-          <a href={site.socials.x} target="_blank" rel="noreferrer" className="flex items-center gap-2 hover:text-bone">
+        <div className="flex items-center justify-end gap-5 text-sm text-mute">
+          <a
+            href={site.socials.x}
+            target="_blank"
+            rel="noreferrer"
+            tabIndex={open ? 0 : -1}
+            className="flex items-center gap-2 hover:text-bone"
+          >
             <XIcon className="h-4 w-4" /> {site.handle}
           </a>
         </div>
       </div>
-    </header>
+    </>
   );
 }
