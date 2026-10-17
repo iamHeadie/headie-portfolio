@@ -19,6 +19,31 @@ export type Project = {
 
 export const projects: Project[] = [
   {
+    slug: "hyperframes-studio",
+    title: "HyperFrames Studio",
+    kicker: "AI Product · Launch Film",
+    year: "2026",
+    runtime: "0:28",
+    featured: true,
+    logline:
+      "A glowing hand reaches out of a laptop, giant type sings 'Hello new world' — then the film shows how Claude Code builds the edit while you point at what to change.",
+    objective:
+      "Launch a video editor built for AI agents. In under thirty seconds the film had to grab attention, explain the workflow — the agent writes, you direct — and land the name and URL.",
+    concept:
+      "Two halves. It opens cinematic: dark rooms, warm lamps, a mint-green hand of light crossing from screen to person under huge condensed lyrics. Then it cuts to clean product motion — 'Don't edit. Direct.', Claude Code and You as two cursors on one timeline, 'Same project. No export.', and the point, sound and render steps — before resolving on the HyperFrames Studio logo.",
+    role: "Director · Motion Design · Edit",
+    tools: ["Claude", "Hyperframes", "After Effects"],
+    process: [
+      { t: "Hook", d: "Opened on a cinematic, lyric-driven sequence so the launch feels like a moment, not a feature list." },
+      { t: "Message", d: "Boiled the product down to one line — 'Don't edit. Direct.' — and gave it its own beat." },
+      { t: "Demo", d: "Showed Claude Code and You as two cursors sharing one timeline, so the workflow reads at a glance." },
+      { t: "Close", d: "Ended on the logo, tagline and hyperframes.dev/studio so the last frame works as a call to action." },
+    ],
+    poster: "/images/HyperFrames-Studio.jpg",
+    video: "/videos/HyperFrames-Studio_1920x1080.mp4",
+    aspect: "video",
+  },
+  {
     slug: "hl-media",
     title: "HL/Media — The House of All Finance",
     kicker: "Crypto · Brand Film",
