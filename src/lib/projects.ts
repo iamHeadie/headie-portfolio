@@ -69,6 +69,56 @@ export const projects: Project[] = [
     aspect: "video",
   },
   {
+    slug: "noise-stay-relevant",
+    title: "Noise — Stay Relevant",
+    kicker: "Culture App · Teaser",
+    year: "2026",
+    runtime: "0:30",
+    featured: true,
+    logline:
+      "A lone figure faces a pyramid of glowing TVs, a viewer screams at the feed, a webcam confession admits we're all trying to stay relevant — then NOISE, coming soon.",
+    objective:
+      "Tease a culture-economy app before launch. With no product to show yet, the film had to sell the feeling it answers — the pressure to keep up with every trend — and leave people waiting for the name.",
+    concept:
+      "Screens as a cage. Stacks of old CRT televisions flicker with trending content while silhouettes stare and channel-surf. A raw webcam monologue plays inside one TV, its words appearing on screen as captions, before bold editorial type takes over: 'WE'RE TRYING', then a wall of 'STAY RELEVANT.' that floods into solid red for the NOISE logo.",
+    role: "Director · Editor · Motion Design",
+    tools: ["invideo Agent", "After Effects", "CapCut"],
+    process: [
+      { t: "Mood", d: "Built the TV-pyramid set so the feed feels physical — something you stand in front of, not scroll past." },
+      { t: "Voice", d: "Framed the webcam confession inside a CRT and timed kinetic captions to each spoken word." },
+      { t: "Type", d: "Escalated from a single caption to a wall of repeating 'STAY RELEVANT.' to mirror the overload." },
+      { t: "Tease", d: "Flooded the frame red and held on the logo with 'Coming soon' — no product shots, just the hook." },
+    ],
+    poster: "/images/Noise-Stay-Relevant.jpg",
+    video: "/videos/Noise-Stay-Relevant_1920x1080.mp4",
+    aspect: "video",
+  },
+  {
+    slug: "extended-one-margin",
+    title: "Extended — One Margin for All Markets",
+    kicker: "Crypto Exchange · Product Film",
+    year: "2026",
+    runtime: "0:25",
+    featured: true,
+    logline:
+      "A founder on a glowing CRT says the idea was simple — then the film builds it: one account, up to 100x leverage, unified margin, $302B traded, all on Extended.",
+    objective:
+      "Explain a trading exchange's core feature — one margin account across every market — in about twenty-five seconds, with enough credibility that traders take it seriously.",
+    concept:
+      "Founder story into product system. A vintage TV glows emerald on a dark set while the founder speaks, his words appearing as serif captions on either side. The film then shifts into clean isometric motion: perpetuals, spot, vaults and lending stacked as blocks under one account, numbered feature cards, live volume stats beside the trading interface, and the four-point star mark resolving into the Extended logo.",
+    role: "Director · Motion Design · Edit",
+    tools: ["After Effects", "CapCut"],
+    process: [
+      { t: "Founder", d: "Framed the interview inside a glowing CRT and set his lines as kinetic serif captions." },
+      { t: "System", d: "Visualised one-margin as an isometric stack — every market sitting on a single account." },
+      { t: "Proof", d: "Added the feature cards, total volume and TVL next to the real trading interface." },
+      { t: "Brand", d: "Kept everything in Extended's black and emerald, ending on the logo, tagline and URL." },
+    ],
+    poster: "/images/Extended-One-Margin.jpg",
+    video: "/videos/Extended-One-Margin_1920x1080.mp4",
+    aspect: "video",
+  },
+  {
     slug: "hl-media",
     title: "HL/Media — The House of All Finance",
     kicker: "Crypto · Brand Film",
