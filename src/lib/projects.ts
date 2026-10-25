@@ -44,6 +44,31 @@ export const projects: Project[] = [
     aspect: "video",
   },
   {
+    slug: "share-launch",
+    title: "Share — Predict Anything",
+    kicker: "Prediction Markets · Launch Film",
+    year: "2026",
+    runtime: "0:43",
+    featured: true,
+    logline:
+      "Clock heads, TV heads and a single question — why can't we predict? — building to Share, the app for trading on Hyperliquid and Polymarket outcomes.",
+    objective:
+      "Launch a prediction-market app to a crypto audience that has seen every ad trick. The film had to make the idea of trading on outcomes feel inevitable, ground it in real news and real voices, then land the product, the promise and the URL in under a minute.",
+    concept:
+      "Surreal editorial in black and white. Faceless suited figures with clocks and old TVs for heads stand in for a world that only watches and waits. News footage, a masked figure, a meditating sage and interview soundbites ask the question; real posts about HIP-4 outcome trading answer it. The palette stays monochrome until the app appears in a marble statue's hand, then the film snaps to Share blue for the logo card.",
+    role: "Director · Editor · Motion Design",
+    tools: ["invideo Agent", "After Effects", "CapCut"],
+    process: [
+      { t: "Question", d: "Built the narrative around one line — 'why can't we predict?' — and let every scene push toward it." },
+      { t: "Imagery", d: "Generated surreal clock-head and TV-head figures so the problem reads as a feeling, not a chart." },
+      { t: "Proof", d: "Cut in news clips, interview soundbites and real HIP-4 posts to ground the pitch in what is actually happening." },
+      { t: "Reveal", d: "Held the grade monochrome until the app appears, then switched to full Share blue for the logo and URL." },
+    ],
+    poster: "/images/Share-Launch.jpg",
+    video: "/videos/Share-Launch_960x540.mp4",
+    aspect: "video",
+  },
+  {
     slug: "hl-media",
     title: "HL/Media — The House of All Finance",
     kicker: "Crypto · Brand Film",
